@@ -1,0 +1,132 @@
+Authentication attempt for 'bcbs@payor.com': Success
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Analytics error: cannot access local variable 'status' where it is not associated with a value
+Authentication attempt for 'bcbs@payor.com': Success
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication successful for BlueCross BlueShield
+Analytics error: cannot access local variable 'status' where it is not associated with a value
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Failed
+Authentication failed - invalid credentials
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Failed
+Authentication failed - invalid credentials
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authenticating payor: email=bcbs@payor.com
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Authentication attempt for 'bcbs@payor.com': Success
+Created default payor: BlueCross BlueShield
+Created default payor: UnitedHealth Group
+Created default payor: Anthem Inc
+PayorLoginAPIView: Authentication attempt for email/username: bcbs_admin
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin'}, {'username': 'bcbs_admin'}], 'password': 'bcbs_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs_admin: SUCCESS
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin@test.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin@test.com'}, {'username': 'bcbs_admin@test.com'}], 'password': 'bcbs_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin'}, {'username': 'bcbs_admin'}], 'password': 'bcbs_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin' with password 'wro***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin'}, {'username': 'bcbs_admin'}], 'password': 'wrong_password', 'is_active': True}
+PayorModel.authenticate: Query result: NOT FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'fake_user' with password 'fak***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'fake_user'}, {'username': 'fake_user'}], 'password': 'fake_password', 'is_active': True}
+PayorModel.authenticate: Query result: NOT FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin'}, {'username': 'bcbs_admin'}], 'password': 'bcbs_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication attempt for email/username: bcbs@payor.com
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'bcbs123', 'is_active': True}
+PayorModel.authenticate: Query result: NOT FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs@payor.com: FAILED
+PayorLoginAPIView: Authentication attempt for email/username: bcbs@payor.com
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'bcbs123', 'is_active': True}
+PayorModel.authenticate: Query result: NOT FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs@payor.com: FAILED
+PayorLoginAPIView: Authentication attempt for email/username: bcbs@payor.com
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'pay***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'payor123', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs@payor.com: SUCCESS
+PayorLoginAPIView: Authentication attempt for email/username: bcbs@payor.com
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'pay***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'payor@123', 'is_active': True}
+PayorModel.authenticate: Query result: NOT FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs@payor.com: FAILED
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'bcbs123', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'bcbs_admin@test.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs_admin@test.com'}, {'username': 'bcbs_admin@test.com'}], 'password': 'bcbs_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorModel.authenticate: Attempting authentication for 'united_admin' with password 'uni***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'united_admin'}, {'username': 'united_admin'}], 'password': 'united_secure_2024', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication attempt for email/username: bcbs@payor.com
+PayorModel.authenticate: Attempting authentication for 'bcbs@payor.com' with password 'bcb***'
+PayorModel.authenticate: MongoDB query: {'$or': [{'email': 'bcbs@payor.com'}, {'username': 'bcbs@payor.com'}], 'password': 'bcbs123', 'is_active': True}
+PayorModel.authenticate: Query result: FOUND
+PayorModel.authenticate: Available payors in DB: [{'_id': ObjectId('68dbc4b35a010ad7d103c29d'), 'name': 'Blue Cross Blue Shield', 'email': 'bcbs@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29e'), 'name': 'Aetna Insurance', 'email': 'aetna@payor.com', 'is_active': True}, {'_id': ObjectId('68dbc4b35a010ad7d103c29f'), 'name': 'United Healthcare', 'email': 'uhc@payor.com', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8c'), 'email': 'bcbs_admin@test.com', 'username': 'bcbs_admin', 'name': 'BlueCross BlueShield', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8d'), 'email': 'united_admin@test.com', 'username': 'united_admin', 'name': 'UnitedHealth Group', 'is_active': True}, {'_id': ObjectId('68de980907cdd5b87c7eeb8e'), 'email': 'anthem_admin@test.com', 'username': 'anthem_admin', 'name': 'Anthem Inc', 'is_active': True}]
+PayorLoginAPIView: Authentication result for bcbs@payor.com: SUCCESS
+Webhook failed for provider PROV-001: 404
+Failed to send webhook to provider PROV-002: HTTPConnectionPool(host='provider2.example.com', port=80): Max retries exceeded with url: /webhooks/claims (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000204416734D0>: Failed to resolve 'provider2.example.com' ([Errno 11001] getaddrinfo failed)"))
+Failed to send webhook to provider PROV-003: HTTPConnectionPool(host='provider3.example.com', port=80): Max retries exceeded with url: /api/claim-updates (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000204416739D0>: Failed to resolve 'provider3.example.com' ([Errno 11001] getaddrinfo failed)"))
+Webhook failed for provider PROV-001: 404
+Invalid JWT token: Not enough segments
+Invalid JWT token: Signature verification failed
+Webhook failed for provider PROV-001: 404
+Failed to send webhook to provider PROV-002: HTTPConnectionPool(host='provider2.example.com', port=80): Max retries exceeded with url: /webhooks/claims (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024F97FBF9D0>: Failed to resolve 'provider2.example.com' ([Errno 11001] getaddrinfo failed)"))
+Failed to send webhook to provider PROV-003: HTTPConnectionPool(host='provider3.example.com', port=80): Max retries exceeded with url: /api/claim-updates (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024F97FBF9D0>: Failed to resolve 'provider3.example.com' ([Errno 11001] getaddrinfo failed)"))
